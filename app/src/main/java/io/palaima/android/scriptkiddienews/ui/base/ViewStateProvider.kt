@@ -1,6 +1,8 @@
 package io.palaima.android.scriptkiddienews.ui.base
 
-interface ViewStateEmmiter {
+import androidx.lifecycle.LiveData
 
-    fun onUpdateViewState()
+interface ViewStateProvider {
+
+    fun onViewState(): LiveData<ViewState>
 }

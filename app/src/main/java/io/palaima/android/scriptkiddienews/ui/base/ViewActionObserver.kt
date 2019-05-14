@@ -1,6 +1,6 @@
 package io.palaima.android.scriptkiddienews.ui.base
 
-interface ViewActionProvider {
+interface ViewActionObserver {
 
     fun postViewAction(action: ViewAction)
 }
