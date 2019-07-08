@@ -2,7 +2,7 @@ package io.palaima.android.scriptkiddienews.ui.base
 
 import androidx.lifecycle.LiveData
 
-interface ViewAffectProvider {
+interface ViewEffectProvider {
 
-    fun onViewAffect(): LiveData<ViewAffect>
+    fun onViewEffect(): LiveData<ViewEffect>
 }
